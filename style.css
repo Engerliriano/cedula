@@ -1,0 +1,23 @@
+body{
+  font-family: 'Caveat', cursive;
+  font-family: 'Crimson Text', serif;
+  background: url("fondo3.jpg.png");
+  background-size:cover;
+  border-radius: 20px;
+  padding: auto;
+}
+
+button{
+    background-color: #0961d4;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+

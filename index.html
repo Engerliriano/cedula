@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cedula</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Crimson+Text:ital,wght@1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h3><i>Visualizador de datos</i></h3>
+        <input type="text" id="cedula" placeholder="Digite una cedula">
+        <button class="button" onclick="buscar()">Buscar</button>
+
+        <div id="panel">
+            <table class="table">
+                <tr>
+                    <td>
+                        <img id="foto" src="" />
+                    <td>
+                </tr>
+                <tr>
+                    <th>Nombres:</th>
+                    <td id="nombres">
+                    <td>
+                </tr>
+                <tr>
+                    <th>Apellidos:</th>
+                    <td id="apellidos">
+                    <td>
+                </tr>
+                <tr>
+                    <th>Fecha de nacimiento:</th>
+                    <td id="fechaNacimiento">
+                    <td>
+                </tr>
+                <tr>
+                    <th>Edad:</th>
+                    <td id="edad">
+                    <td>
+                </tr>
+                <tr>
+                    <th>Signo zodiacal:</th>
+                    <td id="signo">
+                    <td>
+                </tr>
+                <tr>
+                    <th>Estado civil:</th>
+                    <td id="estadoCivil">
+                    <td>
+                </tr>
+                <tr>
+                    <th>Lugar de nacimiento:</th>
+                    <td id="lugar">
+                    <td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+<script src="main.js"></script>
+</html>
